@@ -19,7 +19,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
   };
 
   const confirmPurchase = () => {
-    const phoneNumber = "6282141088313";
+    const phoneNumber = "6281510001677";
     const message = `Hello, I am interested in purchasing "${selectedArt?.title}" for ${selectedArt?.price}.`;
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
       message
